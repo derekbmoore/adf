@@ -1,0 +1,20 @@
+{
+	"name": "inputDataDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_adfaisa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data.txt",
+				"folderPath": "input",
+				"container": "adf"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adfai-datafactory",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6385d8a7-e186-4ebe-badd-f7e0418060f4",
+		"tenantId": "7cb0c4db-3865-4ec4-b97c-198d2f6e0480"
+	}
+}
